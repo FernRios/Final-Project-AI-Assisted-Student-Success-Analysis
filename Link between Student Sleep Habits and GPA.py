@@ -20,7 +20,7 @@ model.fit(X,y)
 y_pred = model.predict(X)
 
 # print model results
-print("Slope (cofficient):", model.coef_[0])
+print("Slope (coefficient):", model.coef_[0])
 print("Intercept:", model.intercept_)
 print("R^2 Score:", model.score(X, y))
 
